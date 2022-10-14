@@ -1,0 +1,2 @@
+Since the data I got exceeds GitHub's maximum file size, I created a google drive to upload the data and will use this data for my final project.
+Data: https://drive.google.com/drive/folders/1kUqoN0dILD0dIdtM7rdelAMPFCSfT6Fo?usp=sharing
