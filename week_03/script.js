@@ -24,7 +24,7 @@ d3.csv("covid.csv").then(data => {
                 .range([height - margin.bottom, margin.top]);
 
     const xAxis = (g) => g
-        .attr("tramsform", `translate(0, ${height - margin.bottom + 5})`)
+        .attr("transform", `translate(0, ${height - margin.bottom + 5})`)
         .call(d3.axisBottom(x));
 
     const yAxis = (g) => g
