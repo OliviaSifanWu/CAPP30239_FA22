@@ -1,4 +1,4 @@
-# Week 3
+# Week 4
 
 ## Homework: Line Chart Exercise
 - This project is using a line chart to display Canada's long term interest rates for 2020.
