@@ -14,6 +14,7 @@ d3.csv('long-term-interest-monthly.csv').then(data => {
     for (let d of data) {
         d.Value = +d.Value;
         d.Date = timeParse(d.Date); // using timeParse function we created above
+        console.log(d.Date)
     }
 
     let x = d3.scaleTime()
@@ -60,10 +61,12 @@ d3.csv('long-term-interest-monthly.csv').then(data => {
         .y(d => y(d.Value))
         .curve(d3.curveNatural); // more: https://observablehq.com/@d3/d3-line#cell-244
 
+
     svg.append("path")
         .datum(data)
         .attr("d", line)
         .attr("fill", "none")
         .attr("stroke", "steelblue");
 
+  
   });
