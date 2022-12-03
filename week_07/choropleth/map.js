@@ -23,8 +23,6 @@ Promise.all([
     dataById[d.id] = d;
   }
 
-  console.log(dataById);
-
   const counties = topojson.feature(us, us.objects.counties);
 
   // Quantize evenly breakups domain into range buckets
