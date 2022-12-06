@@ -1,7 +1,7 @@
 
 let width = 1000,
 height = 500,
-gWidth = width/3;
+gWidth = width/2;
 
 let svg = d3.select("#bubble")
 .append("svg")
@@ -12,7 +12,7 @@ let rScale = d3.scaleLinear()
 .range([5,25]);
 
 d3.csv("../data/highest_grade.csv").then(data => {
-let colors = ['#16B1AC','#B42F90', '#FF0909', '#6985DD', '#0BE304', '#9A303D', '#979883', '#FF09D3', '#FF7C09', '#EFE71F', '#7FA25A', '#7A57C7', '#804C13', '#C2C757', '#1F52EF'];
+let colors = ['#16B1AC','#B42F90'];
 
 // console.log(data)
 
